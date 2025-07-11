@@ -16,6 +16,7 @@
     padding: 12px 36px;
     border-radius: 10px;
     border: none;
+
 }
 
 /* Nav styles */
@@ -23,7 +24,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 50px 150px;
+    padding: 0 200px;
 }
 
 .header{
@@ -93,11 +94,10 @@ nav ul li{
 /* productive-user section style */
 .productive-user{
     background-color:rgba(78, 71, 255, 0.1);
-    padding: 50px 10px;
+    padding: 90px 60px;
     border-radius: 20px;
     text-align: center;
-    max-width: 1140px;
-    max-height: 306px;
+    max-width: 1150px;
     margin: 80px auto;
 }
 
@@ -240,4 +240,26 @@ nav ul li{
     border: none;
     width: 390px;
 }
-/* newsletter section styles end */
+
+
+/* Footer Styles start*/
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 80px;
+}
+.footer-links{
+     display: flex;
+     flex-direction: row;
+     gap: 50px;
+     list-style: none;
+}
+.footer-description{
+    font-size: 16px;
+    color: rgba(117, 117, 117, 1);
+    text-align: center;
+    max-width: 500px;
+}
+/* Footer Styles end*/
