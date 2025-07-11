@@ -205,30 +205,39 @@ nav ul li{
     color: rgba(179, 179, 179, 1);
 }
 
-
-
-
-
-
-
-
-
-/* Footer Styles */
-.footer-description{
-
-}
-.footer{
+/* newsletter form Style */
+.newsletter{
     display: flex;
-    justify-content: center;
-}
-
-.all-section{
-}
-
-.all-section ul li{
-    list-style: none;
-}
-
-/* display: flex;
+    flex-direction: row;
     align-items: center;
-    justify-content: space-between; */
+    justify-content: space-evenly;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.newsletter-heading{
+    font-size: 70px;
+    font-weight: 700;
+    color: rgba(37, 36, 50, 1);
+    margin-bottom: 20px;
+}
+.lable-name-adjustment{
+    justify-content: start;
+    font-weight: 500;
+    margin-bottom: 6px;
+}
+.content-form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.email-form{
+    display: flex;
+    flex-direction: column;
+}
+.form-adjustment{
+    padding: 20px;
+    border-radius: 6px;
+    border: none;
+    width: 390px;
+}
+/* newsletter section styles end */
